@@ -1,0 +1,131 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    background-color: var(--main-bg-color);
+    border: 2px solid red;
+    font-family: 'lato',sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2rem;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    
+}
+.logo img{
+    width: 140px;
+    padding: 0 25px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 58px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.search{
+    display: flex ;
+    align-items: center;
+    font-weight: 900;
+}
+
+.search input{
+    width: 432px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 40px 0 23px;
+    padding: 0 12px;
+    
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 91vw;
+    margin: 2rem auto;
+}
+
+
+.card .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    overflow-x: scroll;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 15px;
+}
+.lines{
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.box{
+    min-height: 79vh;
+}
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+footer{
+    background-color: var(--main-bg-color);
+    color: aqua;
+    height: 12vh;
+    font-family: 'lato',sans-serif;
+}
+.header{
+    background-color: black;
+    color: brown;
+}
+@media (max/) {
+    
+}
